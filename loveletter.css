@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0)50%,rgba(0,0,0,0)50%), url(pink.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}   
+
+.navbar{
+    width: 700px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 700px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color:lightcoral;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 200px;
+    float: left;
+    padding-top: 200px;
+}
+
+.menu{
+    width: 600px;
+    float:inline-start;
+    height: 70px;
+}
+
+.btn{
+    border: none;
+    background-color: #F8E0ED;
+    list-style: none;
+    margin-left: 175px;
+    margin-top: 260px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    transition: 0.4s ease-in-out;
+}
+
+    
+.btn:hover{
+    color:#dd4040
+}
+
+.sakura-overlay {
+    position: fixed; /* Use fixed positioning to overlay the entire page */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000; /* Ensure the overlay is above other elements */
+    background-color: rgba(0, 0, 0, 0); /* Adjust opacity as needed */
+    pointer-events: none;
+}
+
+.bubu-flowers {
+    width: 50px;
+    height: auto;
+    object-fit: contain;
+    position: absolute;
+    top: 300px;
+    margin-left: 130px;
+    pointer-events: none;
+}
+
+.sakura-overlay img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
